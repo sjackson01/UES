@@ -1,0 +1,21 @@
+{
+
+  // Boomi Connection  
+  "Uri": "xxxxxxxxxxx",
+  "UserName": "xxxxxxxxxxx",
+  "BoomiPassword": "xxxxxxxxxx",
+
+  // Moodle Connection by URL Examples 
+  // http://localhost/moodle/webservice/rest/server.php?wstoken=6ce56e0ab0d28a15ad1b708cc3c0f8a0&wsfunction=core_course_create_categories&moodlewsrestformat=json&categories[0][name]=TestTest&categories[0][parent]=1
+  // http://localhost/moodle/webservice/rest/server.php?wstoken=6ce56e0ab0d28a15ad1b708cc3c0f8a0&wsfunction=enrol_manual_enrol_users&moodlewsrestformat=json&enrolments[0][roleid]=5&enrolments[0][userid]=4&enrolments[0][courseid]=2
+
+  // Moodle Connection 
+  "Token": "xxxxxxxxxxxxx",
+  "Url": "http://localhost/moodle/webservice/rest/server.php?",
+  "Function": "xxxxxxxxxxxxxx",
+  "FullName": "",
+  "ShortName": "",
+  "CategoryId": ""
+
+
+}
